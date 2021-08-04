@@ -4,10 +4,3 @@ Simulação de um ecomerce, paara treinarmos Node.js, GitHub e trabalho em equip
 
 Para contribuir siga os passos:
 
-```
-git clone https://github.com/VitorPaulo21/e-comerceTreinamento.git
-```
-
-```
-cd e-comerceTreinamento
-```
