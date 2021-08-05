@@ -1,13 +1,13 @@
 {
   "name": "e-comerce-app",
-  "description": "Simulacao de um e-comerce para treinamento em equipe",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Simulacao de um e-comerce para treinamento em equipe",
+  "main": "src/main.js",
   "dependencies": {
     "esm": "^3.2.25",
-    "cors": "2.8.5",
     "dotenv": "8.2.0",
     "express": "4.17.1",
+    "graphql": "^15.5.1",
     "mongoose": "^5.13.5"
   },
   "devDependencies": {
