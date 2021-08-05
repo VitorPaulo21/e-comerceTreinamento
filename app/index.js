@@ -1,40 +1,66 @@
 import express from 'express';
 import cors from 'cors';
-
+import mongoose from 'mongoose';
 import routes from './src/main';
+import dotenv from 'dotenv';
 import { join } from 'path';
-import { config } from 'dotenv';
 
-config();
+dotenv.config();
 
-const app = express();
-app.use(cors());
-app.use(express.json());
+class App {
+  constructor() {
+    this.server = express();
+    this.middlewares();
+    this.routes();
+  }
+  middlewares() {
+    this.server.use(cors());
+    this.server.use(express.json());
+    // Connection to React App
+    this.server.use(express.static(join(__dirname, 'client/build/')));
+  }
+  routes() {
+    this.server.use('/api/v1', routes);
+    this.server.get('/api/', (_, response) => {
+      response.send({
+        message: 'Bem-vindo à API. Acesse /v1 e siga as orientações',
+      });
+    });
+  }
+}
 
-// /**
-//  * Vinculando o React ao app
-//  */
-app.use(express.static(join(__dirname, 'client/build/')));
+/**
+ * Conexão ao Banco de Dados
+ */
+const { DB_CONNECTION } = process.env;
+let connectedToMongoDB;
 
-// /**
-//  * Rota raiz
-//  */
-app.get('/api/', (_, response) => {
-  response.send({
-    message: 'Bem-vindo à API. Acesse /v1 e siga as orientações',
+console.log('Iniciando conexão ao MongoDB...');
+mongoose.connect(
+  DB_CONNECTION,
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  },
+  (err) => {
+    if (err) {
+      connectedToMongoDB = false;
+      console.error(`Erro na conexão ao MongoDB - ${err}`);
+    }
+  }
+);
+
+const { connection } = mongoose;
+
+connection.once('open', () => {
+  connectedToMongoDB = true;
+  console.log('Conectado ao MongoDB');
+  /**
+   * Definição de porta e
+   * inicialização do app
+   */
+  const PORT = process.env.PORT || 3001;
+  new App().server.listen(PORT, () => {
+    console.log(`Server running at port: ${PORT}`);
   });
-});
-
-/**
- * Rotas principais do app
- */
-app.use('/api/v1', routes);
-
-/**
- * Definição de porta e
- * inicialização do app
- */
-const APP_PORT = process.env.PORT || 3001;
-app.listen(APP_PORT, () => {
-  console.log(`Servidor iniciado na porta ${APP_PORT}`);
 });
