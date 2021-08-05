@@ -4,10 +4,11 @@
   "description": "Simulacao de um e-comerce para treinamento em equipe",
   "main": "src/main.js",
   "dependencies": {
-    "esm": "^3.2.25",
     "dotenv": "8.2.0",
+    "esm": "^3.2.25",
     "express": "4.17.1",
     "graphql": "^15.5.1",
+    "apollo-server-express": "^3.1.2",
     "mongoose": "^5.13.5"
   },
   "devDependencies": {
