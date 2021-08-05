@@ -1,0 +1,332 @@
+[
+  {
+    "name": "Hennessy",
+    "brand": "LVMH",
+    "type": "Cognac",
+    "unit_amount": {
+      "value": 44.65
+    },
+    "description": "Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+    "category": "liquors",
+    "rating": 4.5
+  },
+  {
+    "name": "Rémy Martin",
+    "brand": "Rémy Cointreau",
+    "type": "Cognac",
+    "unit_amount": {
+      "value": 92.7
+    },
+    "description": "Etiam pretium iaculis justo.",
+    "category": "liquors",
+    "rating": 4
+  },
+  {
+    "name": "Patrón",
+    "brand": "The Patrón Spirits Company",
+    "type": "Tequila",
+    "unit_amount": {
+      "value": 95.94
+    },
+    "description": "Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",
+    "category": "liquors",
+    "rating": 4.5
+  },
+  {
+    "name": "Jose Cuervo",
+    "brand": "Tequila Cuervo La Rojeña SA",
+    "type": "Tequila",
+    "unit_amount": {
+      "value": 71.29
+    },
+    "description": "Morbi a ipsum. Integer a nibh.",
+    "category": "liquors",
+    "rating": 3
+  },
+  {
+    "name": "Fernet-Branca",
+    "brand": "Distillerie Fratelli Branca",
+    "type": "Liqueur",
+    "unit_amount": {
+      "value": 33.71
+    },
+    "description": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",
+    "category": "liquors",
+    "rating": 4
+  },
+  {
+    "name": "Jägermeister",
+    "brand": "Mast-Jägermeister SE",
+    "type": "Liqueur",
+    "unit_amount": {
+      "value": 43.48
+    },
+    "description": "Praesent lectus.",
+    "category": "liquors",
+    "rating": 4.5
+  },
+  {
+    "name": "Fireball",
+    "brand": "The Sazerac Company",
+    "type": "Liqueur",
+    "unit_amount": {
+      "value": 104.43
+    },
+    "description": "Proin at turpis a pede posuere nonummy. Integer non velit.",
+    "category": "liquors",
+    "rating": 4
+  },
+  {
+    "name": "Bacardi",
+    "brand": "Bacardi Limited",
+    "type": "Rum",
+    "unit_amount": {
+      "value": 58.35
+    },
+    "description": "Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+    "category": "liquors",
+    "rating": 4
+  },
+  {
+    "name": "Grey Goose",
+    "brand": "Bacardi Limited",
+    "type": "Vodka",
+    "unit_amount": {
+      "value": 102.66
+    },
+    "description": "Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+    "category": "liquors",
+    "rating": 3.5
+  },
+  {
+    "name": "SKYY",
+    "brand": "Gruppo Campari",
+    "type": "Vodka",
+    "unit_amount": {
+      "value": 119.99
+    },
+    "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.",
+    "category": "liquors",
+    "rating": 3
+  },
+  {
+    "name": "Ketel One",
+    "brand": "Nolet Distillery",
+    "type": "Vodka",
+    "unit_amount": {
+      "value": 27.13
+    },
+    "description": "In quis justo.",
+    "category": "liquors",
+    "rating": 4.5
+  },
+  {
+    "name": "Russian Standard",
+    "brand": "Russian Standard",
+    "type": "Vodka",
+    "unit_amount": {
+      "value": 120.18
+    },
+    "description": "Maecenas pulvinar lobortis est.",
+    "category": "liquors",
+    "rating": 5
+  },
+  {
+    "name": "Absolut",
+    "brand": "Pernod-Ricard",
+    "type": "Vodka",
+    "unit_amount": {
+      "value": 48.37
+    },
+    "description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",
+    "category": "liquors",
+    "rating": 4.5
+  },
+  {
+    "name": "Chivas Regal",
+    "brand": "Pernod-Ricard",
+    "type": "Whisky",
+    "unit_amount": {
+      "value": 30.32
+    },
+    "description": "Nullam molestie nibh in lectus. Pellentesque at nulla.",
+    "category": "liquors",
+    "rating": 5
+  },
+  {
+    "name": "Ballantines",
+    "brand": "Pernod-Ricard",
+    "type": "Whisky",
+    "unit_amount": {
+      "value": 52.68
+    },
+    "description": "In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+    "category": "liquors",
+    "rating": 4.5
+  },
+  {
+    "name": "Jameson",
+    "brand": "Pernod-Ricard",
+    "type": "Whisky",
+    "unit_amount": {
+      "value": 26.49
+    },
+    "description": "Suspendisse potenti.",
+    "category": "liquors",
+    "rating": 4
+  },
+  {
+    "name": "Martell",
+    "brand": "Pernod-Ricard",
+    "type": "Cognac",
+    "unit_amount": {
+      "value": 112.99
+    },
+    "description": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.",
+    "category": "liquors",
+    "rating": 4.5
+  },
+  {
+    "name": "Ricard",
+    "brand": "Pernod-Ricard",
+    "type": "Liqueur",
+    "unit_amount": {
+      "value": 20.38
+    },
+    "description": "Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.",
+    "category": "liquors",
+    "rating": 4
+  },
+  {
+    "name": "Johnnie Walker",
+    "brand": "Diageo",
+    "type": "Whisky",
+    "unit_amount": {
+      "value": 33.07
+    },
+    "description": "Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+    "category": "liquors",
+    "rating": 3
+  },
+  {
+    "name": "Smirnoff",
+    "brand": "Diageo",
+    "type": "Vodka",
+    "unit_amount": {
+      "value": 36.73
+    },
+    "description": "Suspendisse accumsan tortor quis turpis.",
+    "category": "liquors",
+    "rating": 3.5
+  },
+  {
+    "name": "Captain Morgan",
+    "brand": "Diageo",
+    "type": "Rum",
+    "unit_amount": {
+      "value": 35.93
+    },
+    "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",
+    "category": "liquors",
+    "rating": 5
+  },
+  {
+    "name": "Baileys",
+    "brand": "Diageo",
+    "type": "Liqueur",
+    "unit_amount": {
+      "value": 69.36
+    },
+    "description": "Suspendisse accumsan tortor quis turpis. Sed ante.",
+    "category": "liquors",
+    "rating": 4.5
+  },
+  {
+    "name": "Crown Royal",
+    "brand": "Diageo",
+    "type": "Whisky",
+    "unit_amount": {
+      "value": 28.69
+    },
+    "description": "Maecenas ut massa quis augue luctus tincidunt.",
+    "category": "liquors",
+    "rating": 5
+  },
+  {
+    "name": "Cîroc",
+    "brand": "Diageo",
+    "type": "Vodka",
+    "unit_amount": {
+      "value": 88.09
+    },
+    "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
+    "category": "liquors",
+    "rating": 5
+  },
+  {
+    "name": "J and B",
+    "brand": "Diageo",
+    "type": "Whisky",
+    "unit_amount": {
+      "value": 54.93
+    },
+    "description": "Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.",
+    "category": "liquors",
+    "rating": 4.5
+  },
+  {
+    "name": "Jack Daniels",
+    "brand": "Brown-Forman",
+    "type": "Whisky",
+    "unit_amount": {
+      "value": 61.46
+    },
+    "description": "Fusce posuere felis sed lacus.",
+    "category": "liquors",
+    "rating": 4.5
+  },
+  {
+    "name": "Finlandia",
+    "brand": "Brown-Forman",
+    "type": "Vodka",
+    "unit_amount": {
+      "value": 64.4
+    },
+    "description": "Morbi non quam nec dui luctus rutrum.",
+    "category": "liquors",
+    "rating": 4
+  },
+  {
+    "name": "Jim Beam",
+    "brand": "Beam Suntory",
+    "type": "Whisky",
+    "unit_amount": {
+      "value": 49.91
+    },
+    "description": "Sed accumsan felis.",
+    "category": "liquors",
+    "rating": 4.5
+  },
+  {
+    "name": "Grants",
+    "brand": "William Grant and Sons",
+    "type": "Whisky",
+    "unit_amount": {
+      "value": 75.43
+    },
+    "description": "Pellentesque ultrices mattis odio. Donec vitae nisi.",
+    "category": "liquors",
+    "rating": 4
+  },
+  {
+    "name": "The Famous Grouse",
+    "brand": "The Edrington Group",
+    "type": "Whisky",
+    "unit_amount": {
+      "value": 85.59
+    },
+    "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.",
+    "category": "liquors",
+    "rating": 5
+  }
+]
